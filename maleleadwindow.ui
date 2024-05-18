@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>300</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(35, 35, 35);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Shahrukh Khan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Aftab Shivdasani</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Amitabh Bachan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Anupam Kher</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rajpal Naurang</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kay Kay Menon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sohail Khan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>J.D Chakravarthi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vatsal Sheth</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rajit Kapoor</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Arjun Rampal</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shahid Khan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nakul</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jackie Shroff</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vishwas Kini</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rishi Kapoor</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Imran Khan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Hrithik Roshan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Akshay Kumar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Varun Dhawan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Salman Khan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Saif Ali Khan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Abishek Bachan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sidharth Malhotra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ranveer Singh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ranbir Kapoor</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sushant Singh Rajput</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shahid Kapoor</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Prateik Babbar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ajay Devgan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Emraan Hashmi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Anil Kapoor</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kartik Aryan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Uday Chopra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Amir Khan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kunal Kohli</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Irfan Khan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Abhay Deol</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sanjay Suri</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="goButton">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>300</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{; /* Light gray background */
+	background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+color: rgb(255, 255, 255);}
+QPushButton:hover{background-color: rgb(50,50,50); /* Light gray background */
+    border-radius: 10px;
+	color: rgb(255, 255, 255);
+ border: 2px solid #ccc;}</string>
+   </property>
+   <property name="text">
+    <string>Go</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="voidButton_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>240</y>
+     <width>141</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color: rgb(54, 52, 59); /* Light gray background */
+    border-radius: 10px;
+color: rgb(255, 255, 255);}
+</string>
+   </property>
+   <property name="text">
+    <string>Chose a Male Lead</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{; /* Light gray background */
+	background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+color: rgb(255, 255, 255);}
+QPushButton:hover{background-color: rgb(50,50,50); /* Light gray background */
+    border-radius: 10px;
+	color: rgb(255, 255, 255);
+ border: 2px solid #ccc;}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

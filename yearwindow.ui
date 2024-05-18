@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="voidButton">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>240</y>
+     <width>141</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color: rgb(54, 52, 59); /* Light gray background */
+    border-radius: 10px;
+color: rgb(255, 255, 255);}
+</string>
+   </property>
+   <property name="text">
+    <string>Chose a Year</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="goButton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>290</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{; /* Light gray background */
+	background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+color: rgb(255, 255, 255);}
+QPushButton:hover{background-color: rgb(50,50,50); /* Light gray background */
+    border-radius: 10px;
+	color: rgb(255, 255, 255);
+ border: 2px solid #ccc;}</string>
+   </property>
+   <property name="text">
+    <string>Go</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>290</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(35, 35, 35);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>1990</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1991</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1992</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1993</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1994</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1995</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1997</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1998</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1999</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2000</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2001</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2002</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2003</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2004</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2005</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2006</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2012</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2013</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2014</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2015</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2016</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2017</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2018</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2019</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2020</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2021</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2022</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2023</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2024</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{; /* Light gray background */
+	background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+color: rgb(255, 255, 255);}
+QPushButton:hover{background-color: rgb(50,50,50); /* Light gray background */
+    border-radius: 10px;
+	color: rgb(255, 255, 255);
+ border: 2px solid #ccc;}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

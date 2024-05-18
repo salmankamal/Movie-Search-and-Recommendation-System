@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QDialog" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="genreButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>280</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{; /* Light gray background */
+	background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+color: rgb(255, 255, 255);}
+QPushButton:hover{background-color: rgb(50,50,50); /* Light gray background */
+    border-radius: 10px;
+	color: rgb(255, 255, 255);
+ border: 2px solid #ccc;}</string>
+   </property>
+   <property name="text">
+    <string>Genre</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="male_leadButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>280</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{; /* Light gray background */
+	background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+color: rgb(255, 255, 255);}
+QPushButton:hover{background-color: rgb(50,50,50); /* Light gray background */
+    border-radius: 10px;
+	color: rgb(255, 255, 255);
+ border: 2px solid #ccc;}</string>
+   </property>
+   <property name="text">
+    <string>Male Lead</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="female_leadButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>280</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{; /* Light gray background */
+	background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+color: rgb(255, 255, 255);}
+QPushButton:hover{background-color: rgb(50,50,50); /* Light gray background */
+    border-radius: 10px;
+	color: rgb(255, 255, 255);
+ border: 2px solid #ccc;}</string>
+   </property>
+   <property name="text">
+    <string>Female Lead</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="yearButton">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>280</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{; /* Light gray background */
+	background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+color: rgb(255, 255, 255);}
+QPushButton:hover{background-color: rgb(50,50,50); /* Light gray background */
+    border-radius: 10px;
+	color: rgb(255, 255, 255);
+ border: 2px solid #ccc;}</string>
+   </property>
+   <property name="text">
+    <string>Year</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="voidButton">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>220</y>
+     <width>141</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color: rgb(54, 52, 59); /* Light gray background */
+    border-radius: 10px;
+color: rgb(255, 255, 255);}
+</string>
+   </property>
+   <property name="text">
+    <string>Chose a Condition</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="allButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>280</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{; /* Light gray background */
+	background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+color: rgb(255, 255, 255);}
+QPushButton:hover{background-color: rgb(50,50,50); /* Light gray background */
+    border-radius: 10px;
+	color: rgb(255, 255, 255);
+ border: 2px solid #ccc;}</string>
+   </property>
+   <property name="text">
+    <string>All</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="voidButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>210</y>
+     <width>141</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color: rgb(54, 52, 59); /* Light gray background */
+    border-radius: 10px;
+color: rgb(255, 255, 255);}
+</string>
+   </property>
+   <property name="text">
+    <string>Chose a Female Lead</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>260</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(35, 35, 35);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Anushka Sharma</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Urmila Matondkar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bhoomika Chawla</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nandita Das</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Antara Mali</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Divya Khosla Kumar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bipasha</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gautami</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nivedita</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Aarti</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Archana Singh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Amrita Rao</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ayesha Takia</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dia Mirza</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ananya Pandey</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Juhi Chawla</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kalki Koechlin</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Parineeti Chopra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sonam Kapoor</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shraddha Kapoor</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Deepika Padukone</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ameesha Patel</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Deepshikha Nagpal</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nushrat Bharucha</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jennifer Winget</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Soha Ali Khan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Alia Bhatt</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kiara Advani</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Saba Qamar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Happy Bhag Jayegi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kareena Kapoor</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Asin</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Karishma Kapoor</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Katrina Kaif</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kajol</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Preity Zinta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Aishwarya Rai</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Madhuri Dixit</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sanjana Sanghi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Illeana D'Cruz</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sushmita Sen</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Isha Koppikar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chitrangada Singh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rituparna Sengupta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rani Mukherji</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lara Dutta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vidya Malvade</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tisca Chopra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Konkona Sen Sharma</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Neha Dhupia</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nauheed Cyrusi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Priyanka Chopra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Radhika Apte</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="goButton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>260</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{; /* Light gray background */
+	background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+color: rgb(255, 255, 255);}
+QPushButton:hover{background-color: rgb(50,50,50); /* Light gray background */
+    border-radius: 10px;
+	color: rgb(255, 255, 255);
+ border: 2px solid #ccc;}</string>
+   </property>
+   <property name="text">
+    <string>Go</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{; /* Light gray background */
+	background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+color: rgb(255, 255, 255);}
+QPushButton:hover{background-color: rgb(50,50,50); /* Light gray background */
+    border-radius: 10px;
+	color: rgb(255, 255, 255);
+ border: 2px solid #ccc;}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
